@@ -9,10 +9,10 @@ widgets:
 
 excerpt_link: Read More
 
-twitter:
-  username:
-  show_replies: false
-  tweet_count: 5
+# twitter:
+#   username:
+#   show_replies: false
+#   tweet_count: 5
 
 addthis:
   enable: true
@@ -24,13 +24,24 @@ addthis:
 
 fancybox: true
 
-google_analytics:
-rss:
+google_analytics: true
+rss: true
 
-comment_provider: facebook
-# Facebook comment
-facebook:
-  appid: 123456789012345
-  comment_count: 5
-  comment_width: 840
-  comment_colorscheme: light
+# comment_provider: facebook
+# # Facebook comment
+# facebook:
+#   appid: 123456789012345
+#   comment_count: 5
+#   comment_width: 840
+#   comment_colorscheme: light
+
+valine:
+  enable: true
+  appid:  OmB4uw5BEUkOj20vLVphivaH-gzGzoHsz
+  appkey: WqnEBGFa39sM5NpQO0T8EaJS
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: ヾﾉ≧∀≦)o 来呀！快活呀！~
+  avatar: mm # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
